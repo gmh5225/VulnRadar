@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-03-03T17:26:53+00:00`
+Generated: `2026-03-03T18:27:57+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **22272**
+- Total items: **22273**
 - Watchlist hits: **21898**
-- CISA KEVs: **631**
-- Exploit Intel (PoC): **694**
-- Exploit Intel + Watchlist (CRITICAL): **320**
+- CISA KEVs: **633**
+- Exploit Intel (PoC): **696**
+- Exploit Intel + Watchlist (CRITICAL): **321**
 
 ## Top Findings (max 200)
 
@@ -221,6 +221,7 @@ Top critical items:
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-30 | 0.045 | 7.8 | ✅ | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2023-21823](https://www.cve.org/CVERecord?id=CVE-2023-21823) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-03-07 | 0.042 | 7.8 | ✅ | Windows Graphics Component Remote Code Execution Vulnerability |
 | [CVE-2025-6554](https://www.cve.org/CVERecord?id=CVE-2025-6554) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-07-23 | 0.006 | 8.1 | ✅ | Type confusion in V8 in Google Chrome prior to 138.0.7204.96 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium secur… |
+| [CVE-2026-22719](https://www.cve.org/CVERecord?id=CVE-2026-22719) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-24 | 0.005 | 8.1 | ✅ | VMware Aria Operations contains a command injection vulnerability. A malicious unauthenticated actor may exploit this issue to execute arbitrary commands which… |
 | [CVE-2024-38107](https://www.cve.org/CVERecord?id=CVE-2024-38107) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.034 | 7.8 | ✅ | Windows Power Dependency Coordinator Elevation of Privilege Vulnerability |
 | [CVE-2026-21514](https://www.cve.org/CVERecord?id=CVE-2026-21514) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.033 | 7.8 | ✅ | Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker to bypass a security feature locally. |
 | [CVE-2025-62221](https://www.cve.org/CVERecord?id=CVE-2025-62221) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-12-30 | 0.030 | 7.8 | ✅ | Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally. |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2025-30400](https://www.cve.org/CVERecord?id=CVE-2025-30400) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.008 | 7.8 | ✅ | Use after free in Windows DWM allows an authorized attacker to elevate privileges locally. |
 | [CVE-2022-41125](https://www.cve.org/CVERecord?id=CVE-2022-41125) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.007 | 7.8 | ✅ | Windows CNG Key Isolation Service Elevation of Privilege Vulnerability |
 | [CVE-2022-32917](https://www.cve.org/CVERecord?id=CVE-2022-32917) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-10-05 | 0.005 | 7.8 | ✅ | The issue was addressed with improved bounds checks. This issue is fixed in macOS Monterey 12.6, iOS 15.7 and iPadOS 15.7, iOS 16, macOS Big Sur 11.7. An appli… |
-| [CVE-2025-41244](https://www.cve.org/CVERecord?id=CVE-2025-41244) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-20 | 0.005 | 7.8 | ✅ | VMware Aria Operations and VMware Tools contain a local privilege escalation vulnerability. A malicious local actor with non-administrative privileges having a… |
