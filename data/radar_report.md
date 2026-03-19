@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-03-19T17:33:22+00:00`
+Generated: `2026-03-19T18:31:54+00:00`
 
 ## Executive Summary
 
@@ -41,8 +41,8 @@ Top critical items:
 - Total items: **22554**
 - Watchlist hits: **22174**
 - CISA KEVs: **644**
-- Exploit Intel (PoC): **706**
-- Exploit Intel + Watchlist (CRITICAL): **326**
+- Exploit Intel (PoC): **707**
+- Exploit Intel + Watchlist (CRITICAL): **327**
 
 ## Top Findings (max 200)
 
@@ -150,6 +150,7 @@ Top critical items:
 | [CVE-2024-38178](https://www.cve.org/CVERecord?id=CVE-2024-38178) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.263 | 7.5 | ✅ | Scripting Engine Memory Corruption Vulnerability |
 | [CVE-2025-20337](https://www.cve.org/CVERecord?id=CVE-2025-20337) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-08-18 | 0.007 | 10.0 | ✅ | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
 | [CVE-2025-43300](https://www.cve.org/CVERecord?id=CVE-2025-43300) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-09-11 | 0.006 | 10.0 | ✅ | An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 15.8.5 and iPadOS 15.8.5, iOS 16.7.12 and iPadOS 16.7.12. … |
+| [CVE-2026-20131](https://www.cve.org/CVERecord?id=CVE-2026-20131) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-22 | 0.006 | 10.0 | ✅ | A vulnerability in the web-based management interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker… |
 | [CVE-2022-1364](https://www.cve.org/CVERecord?id=CVE-2022-1364) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-06 | 0.124 | 8.8 | ✅ | Type confusion in V8 Turbofan in Google Chrome prior to 100.0.4896.127 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. |
 | [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-31 | 0.124 | 8.8 | ✅ | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
 | [CVE-2025-24201](https://www.cve.org/CVERecord?id=CVE-2025-24201) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-03 | 0.001 | 10.0 | ✅ | An out-of-bounds write issue was addressed with improved checks to prevent unauthorized actions. This issue is fixed in visionOS 2.3.2, iOS 18.3.2 and iPadOS 1… |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2025-32709](https://www.cve.org/CVERecord?id=CVE-2025-32709) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.010 | 7.8 | ✅ | Null pointer dereference in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally. |
 | [CVE-2025-30400](https://www.cve.org/CVERecord?id=CVE-2025-30400) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.010 | 7.8 | ✅ | Use after free in Windows DWM allows an authorized attacker to elevate privileges locally. |
 | [CVE-2025-20352](https://www.cve.org/CVERecord?id=CVE-2025-20352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-10-20 | 0.020 | 7.7 | ✅ | A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software and Cisco IOS XE Software could allow the following:   An a… |
-| [CVE-2023-41061](https://www.cve.org/CVERecord?id=CVE-2023-41061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-02 | 0.010 | 7.8 | ✅ | A validation issue was addressed with improved logic. This issue is fixed in watchOS 9.6.2, iOS 16.6.1 and iPadOS 16.6.1. A maliciously crafted attachment may … |
