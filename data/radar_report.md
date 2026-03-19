@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-03-18T23:20:04+00:00`
+Generated: `2026-03-19T03:19:17+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **22517**
-- Watchlist hits: **22137**
+- Total items: **22554**
+- Watchlist hits: **22174**
 - CISA KEVs: **643**
-- Exploit Intel (PoC): **705**
-- Exploit Intel + Watchlist (CRITICAL): **325**
+- Exploit Intel (PoC): **706**
+- Exploit Intel + Watchlist (CRITICAL): **326**
 
 ## Top Findings (max 200)
 
@@ -185,6 +185,7 @@ Top critical items:
 | [CVE-2025-13223](https://www.cve.org/CVERecord?id=CVE-2025-13223) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-12-10 | 0.021 | 8.8 | ✅ | Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromi… |
 | [CVE-2022-37969](https://www.cve.org/CVERecord?id=CVE-2022-37969) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-10-05 | 0.121 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
 | [CVE-2023-3079](https://www.cve.org/CVERecord?id=CVE-2023-3079) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-06-28 | 0.020 | 8.8 | ✅ | Type confusion in V8 in Google Chrome prior to 114.0.5735.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromi… |
+| [CVE-2026-20963](https://www.cve.org/CVERecord?id=CVE-2026-20963) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-21 | 0.016 | 8.8 | ✅ | Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. |
 | [CVE-2024-44308](https://www.cve.org/CVERecord?id=CVE-2024-44308) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-12 | 0.015 | 8.8 | ✅ | The issue was addressed with improved checks. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, macOS Sequoia 15.1.1, iOS 18.1.1 and iPadOS 1… |
 | [CVE-2024-21351](https://www.cve.org/CVERecord?id=CVE-2024-21351) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-05 | 0.132 | 7.6 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2022-2294](https://www.cve.org/CVERecord?id=CVE-2022-2294) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-09-15 | 0.010 | 8.8 | ✅ | Heap buffer overflow in WebRTC in Google Chrome prior to 103.0.5060.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2025-30400](https://www.cve.org/CVERecord?id=CVE-2025-30400) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.010 | 7.8 | ✅ | Use after free in Windows DWM allows an authorized attacker to elevate privileges locally. |
 | [CVE-2025-20352](https://www.cve.org/CVERecord?id=CVE-2025-20352) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-10-20 | 0.020 | 7.7 | ✅ | A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software and Cisco IOS XE Software could allow the following:   An a… |
 | [CVE-2023-41061](https://www.cve.org/CVERecord?id=CVE-2023-41061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-02 | 0.010 | 7.8 | ✅ | A validation issue was addressed with improved logic. This issue is fixed in watchOS 9.6.2, iOS 16.6.1 and iPadOS 16.6.1. A maliciously crafted attachment may … |
-| [CVE-2023-42824](https://www.cve.org/CVERecord?id=CVE-2023-42824) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-26 | 0.010 | 7.8 | ✅ | The issue was addressed with improved checks. This issue is fixed in iOS 16.7.1 and iPadOS 16.7.1. A local attacker may be able to elevate their privileges. Ap… |
